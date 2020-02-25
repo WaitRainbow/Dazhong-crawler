@@ -17,6 +17,7 @@ shidai = client['gongyuan']
 comments = shidai['comments']
 
 path_one = r'C:\Users\FREEDOM\AppData\Local\Google\Chrome\Application\chromedriver.exe'
+# 爬取的店铺名
 list={
       '山塘街(七里山塘景区)':'2094469'
       }
@@ -26,6 +27,7 @@ COOKIES = '__mta=143489930.1577370898860.1577370898860.1577370898860.1; _lxsdk_c
 
 
 class DianpingComment:
+
     font_size = 14
     start_y = 23
 
